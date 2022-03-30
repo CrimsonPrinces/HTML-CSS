@@ -1,0 +1,27 @@
+h1{
+    color: green;
+    font-size: 30px;
+}
+.Header2{
+   color: red;
+   font-size: 20px; 
+}
+p{
+    color: deepskyblue;
+    font-size: 15px;
+}
+.Header3{
+    color: blue;
+    font-size: 20px;
+}
+h3{
+    color: lightgreen;
+    font-size: 10px;
+}
+img{
+    border-radius: 25%;
+}
+h4{
+    color: green;
+    font-size: 70px;
+}

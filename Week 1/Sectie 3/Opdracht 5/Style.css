@@ -1,0 +1,14 @@
+.foto1{
+    height:300px ;
+    width: 300px;
+    padding: 125px;
+    border: 10px;
+    box-sizing: border-box;
+}
+.foto2{
+    height:300px ;
+    width: 300px;
+    padding: 125px;
+    border: 10px;
+    box-sizing: content-box;
+}

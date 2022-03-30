@@ -1,0 +1,34 @@
+h1,.header2{
+    color: green;
+}
+p{
+    color: lawngreen;
+}
+.header3{
+    color: red;
+}
+.Bottompage{
+    color: darkgreen;
+}
+.Tijger1{
+    margin-left: 20px;
+}
+.tijger2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100x;
+    right: 300px;
+}
+.container{
+    text-align: right;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 200px;
+}
+.Author{
+    text-align: right;
+    
+}

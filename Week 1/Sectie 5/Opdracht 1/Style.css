@@ -1,0 +1,44 @@
+.Flexcontainer{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    text-align: center;
+}
+.C1, .C5{
+    background-color: green;
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.C2, .C6{
+    background-color: yellow;
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.C3, .C7{
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.C4, .C8{
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media (max-width: 800px){
+
+.Flexcontainer{
+    flex-direction: column;
+}
+.C1, .C2, .C3, .C4, .C5, .C6, .C7, .C8{
+    margin-top: 5px;
+}
+}

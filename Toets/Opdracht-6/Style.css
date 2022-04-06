@@ -1,0 +1,67 @@
+@media screen and (min-width: 766px) and (max-width: 1920px){
+    
+
+.flexcontainer{
+    display: flex;
+    margin: 5,0,5,0;
+    flex-wrap: wrap;
+}
+.A, .D{
+    background-color: blue;
+    width: 250px ;
+}
+.G{
+    background-color: blue;
+    justify-content: flex-start;
+    width: 750px;
+}
+.B, .E{
+  background-color: green;
+  width: 250px;  
+}
+.C, .F{
+    background-color: red;
+    width: 250px;
+}
+}
+@media screen and (min-width: 518px) and (max-width:765px) {
+    .flexcontainer{
+        display: flex;
+        margin: 5,0,5,0;
+        flex-wrap: wrap;
+    }
+    .A, .D{
+        background-color: blue;
+        width: 250px ;
+    }
+    .G{
+        background-color: blue;
+        width: 500px;
+    }
+    .B, .E{
+        background-color: green;
+        width: 250px;  
+      }
+    .C, .F{
+        background-color: red;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 515px){
+    .flexcontainer{
+        display: flex;
+        margin: 5,0,5,0;
+    }
+    .A, .D, .G{
+        background-color: blue;
+        width: 250px ;
+    }
+    .B, .E{
+        background-color: green;
+        width: 250px;  
+      }
+      .C, .F{
+          background-color: red;
+          width: 250px;
+      }
+}

@@ -1,0 +1,78 @@
+@media screen and (min-width: 766px) and (max-width: 1920px){
+.grid-container{
+    display: grid;
+    margin: 5,0,5,0;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 250px 250px 250px;
+}
+.grid-item{
+    width: 250px;
+}
+.A, .D{
+    background-color: blue;
+    width: 250px;
+}
+.G{
+    background-color: blue;
+    width: 750px;
+}
+.B, .E{
+    background-color: green;
+    width: 250px;
+}
+.C, .F{
+    background-color: red;
+    width: 250px;
+}
+.grid-itemB{
+    grid-column: 2/3;
+}
+}
+@media screen and (min-width: 518px) and (max-width:765px) {
+    .grid-container{
+        display: grid;
+        margin: 5,0,5,0;
+        grid-template-rows: 50px 50px 50px 50px;
+        grid-template-columns: 250px 250px;
+    }
+    .A, .D{
+        background-color: blue;
+        width: 250px ;
+    }
+    .G{
+        background-color: blue;
+        width: 500px;
+    }
+    .B, .E{
+        background-color: green;
+        width: 250px;  
+      }
+    .C, .F{
+        background-color: red;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 515px){
+    .grid-container{
+        display: grid;
+        margin: 5,0,5,0;
+        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-columns: 250px;
+    }
+    .A, .D{
+        background-color: blue;
+        width: 250px ;
+    }
+    .G{
+        background-color: blue;
+        width: 250px;
+    }
+    .B, .E{
+        background-color: green;
+        width: 250px;  
+      }
+    .C, .F{
+        background-color: red;
+        width: 250px;
+    }
+}

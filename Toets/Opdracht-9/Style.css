@@ -1,19 +1,20 @@
 .gridcontainer{
     display: grid;
     grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
 }
 .grid-itemA{
     background-color: blue;
-    grid-row: 1 /2;
+    grid-row: 1 /3;
     grid-column: 1 / 3;
 }
 .grid-itemB{
     background-color: green;
+    grid-row: 1 / 3;
 }
 .grid-itemC{
     background-color: red;
-    grid-row: 2 / 4;
+    grid-row: 3 / 5;
 }
 .grid-itemD{
     background-color: blue;
@@ -21,14 +22,14 @@
 }
 .grid-itemE{
     background-color: green;
-    grid-row: 3/4;
+    grid-row: 4/5;
 }
 .grid-itemF{
     background-color: red;
-    grid-row: 4/5;
+    grid-row: 5/6;
     grid-column: 1/3;
 }
 .grid-itemG{
     background-color: blue;
-    grid-row: 3/5;
+    grid-row: 4/6;
 }
